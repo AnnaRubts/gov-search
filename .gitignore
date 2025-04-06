@@ -1,0 +1,89 @@
+# ===========================
+# 📦 Node.js / React frontend
+# ===========================
+
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Vite/React Cache
+.vite/
+.cache/
+
+# .env files (API keys, secrets)
+.env
+.env.local
+.env.*.local
+
+# Editor settings
+.vscode/
+.idea/
+
+# Mac system files
+.DS_Store
+
+# ===========================
+# 🐍 Python backend
+# ===========================
+
+# Byte-compiled / optimized / Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python environment files
+Pipfile.lock
+poetry.lock
+
+# Flask/Django stuff (optional)
+instance/
+*.sqlite3
+db.sqlite3
+migrations/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Python test & coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+coverage.xml
+*.cover
+*.py,cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyright
+pyrightconfig.json
+
+# ===========================
+# 🌐 General
+# ===========================
+
+# OS or tooling files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Local dev tools
+*.local
+
+node_modules
